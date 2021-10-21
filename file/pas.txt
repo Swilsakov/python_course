@@ -1,0 +1,20 @@
+file = open('database.txt', 'a+')
+print('sign or login')
+a=input()
+if a == 'sign':
+	print('sign')
+
+elif a == 'login':
+	print('login')
+
+
+else:
+	while a!='sign' or a!='login:':
+		a=input('sign or login\n')
+		if a == 'sign':
+			print('sign')
+			break
+
+		elif a == 'login':
+			print('login')
+			break

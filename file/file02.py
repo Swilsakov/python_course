@@ -1,0 +1,6 @@
+file = open('users.txt', 'w')
+login = input('your login:\n')
+password = input('your password:\n')
+file.write(login, '\n')
+file.write(password)
+print(file)

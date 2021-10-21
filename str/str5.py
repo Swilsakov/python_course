@@ -1,0 +1,5 @@
+name = input ('your name:')
+age = input ('your age:')
+film = input ('your lover film:')
+print ('Hello', name)
+print ('Yes,', film, 'its really good film')
